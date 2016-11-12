@@ -2,60 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Rasmus Andersson</title>
+  <title>Jonas Aberg's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
   <body>
+
+  <!-- expandable contact tab, instead of contact.html -->
+  <div class="contact-tab">
+    <div class="text-container">
+      <h1>Contact me</h1>
+      <p>There's plenty of ways to get in touch with me. Write to me on <a href="https://twitter.com/jonasaberg91">Twitter</a> or <a href="mailto:hello@jonasaberg.com">Write me an email</a></p>
+      <ul>
+        <li><a href="https://twitter.com/jonasaberg91" class="social twitter" title="Twitter">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/jonasaberg91" class="social linkedin" title="LinkedIn">LinkedIn</a></li>
+        <li><a href="https://github.com/jonasaberg91" class="social github" title="Github">Github</a></li>
+      </ul>
+    </div>
+  </div>
 
     <div class="main-nav">
         <ul class="nav">
-          <li class="name">Jane Smith</li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="name"><a href="index.html">Jonas Aberg</a></li>
+          <li><a class="contact-trigger">Contact</a></li>
         </ul>
     </div>
 
     <header>
-      <img src="images/me.png" alt="Drawing of Jane Smith" class="profile-image">
-      <h1 class="tag name">Hello, I’m Rasmus</h1>
-      <p class="tag location">My home is Portland, Oregon.</p>
+      <img src="images/jonas_small.png" alt="Portrait of Jonas Åberg" class="profile-image">
+      <h1 class="tag name">Hi, I'm Jonas</h1>
+      <p class="tag location">My home is Umeå, Sweden</p>
     </header>
 
     <main class="flex">
       <div class="card">
         <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-      </div>
+        <p>My name is Jonas Åberg, I am born and raised in Umeå, Sweden. I'm a designer, developer and volleyball athlete traveling and working across the world. I am founder of Evodata, currently working at UDK where I work on a few large scale projects to be released in the near future.</p>
+        <p>This website is where I share my thoughts, insights and showcase my design and development work. I also enjoy taking photographs. I have had the privilege of working with companies and organisations like UDK, Sogeti, Klarna, Fujitsu, CSN, and more.</p>
 
-      <div class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-      </div> 
-
-      <div class="card">
+        <!-- from other card -->
         <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
+        <p>I want to improve my skills in:</p>
         <ul class="skills">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
+          <li>JQuery</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
+        <p>I am currently avaliable for freelance work.</p>
       </div> 
+
+      <!-- extra credit additional information -->
+      <div id="projects" class="card">
+        <h2>Selected Projects</h2>
+
+        <a href="https://www.behance.net/gallery/34185947/UDK-Security-Initiative" title="Case - UDKSecurity">
+          <figure>
+            <img src="images/udksecurity.jpeg" alt="UDKSecurity case for UDK">
+            <figcaption>
+              <h3>UDKSecurity</h3>
+              <p>Website, Identity</p>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a href="https://www.behance.net/gallery/33795778/Sven-Thorgren" title="Case - Sventhorgren">
+          <figure>
+            <img src="images/sventhorgren.jpeg" alt="Sventhorgren case">
+            <figcaption>
+              <h3>Sventhorgren</h3>
+              <p>Website, Photography</p>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a href="https://www.behance.net/gallery/33129921/Fantasia" title="Case - Fantasia">
+          <figure>
+            <img src="images/fantasia.jpeg" alt="Fantasia case">
+            <figcaption>
+              <h3>Fantasia</h3>
+              <p>Website, Identity, Photography</p>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a href="https://www.behance.net/gallery/32592771/Designmarian" title="Case - Designmarian">
+          <figure>
+            <img src="images/designmarian.jpeg" alt="Designmarian case">
+            <figcaption>
+              <h3>Designmarian</h3>
+              <p>E-commerce, Identity</p>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a href="https://www.behance.net/gallery/32517921/Meplugins" title="Case - Meplugins">
+          <figure>
+            <img src="images/meplugins.jpeg" alt="Designmarian case">
+            <figcaption>
+              <h3>Meplugins</h3>
+              <p>Website, Identity</p>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+
+      <!-- i am moving this content to the first card
+      <div class="card">
+        <h2>Goals</h2>
+        <p>I want to improve my skills in:</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>JQuery</li>
+        </ul>
+        <p>I am currently avaliable for freelance work.</p>
+      </div>
+      -->
 
     </main>
     <footer>
       <ul>
-        <li><a href="#" class="social twitter">Twitter</a></li>
-        <li><a href="#" class="social linkedin">LinkedIn</a></li>
-        <li><a href="#" class="social github">Github</a></li>
+        <li><a href="https://twitter.com/jonasaberg91" class="social twitter" title="Twitter">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/jonasaberg91" class="social linkedin" title="LinkedIn">LinkedIn</a></li>
+        <li><a href="https://github.com/jonasaberg91" class="social github" title="Github">Github</a></li>
       </ul>
-      <p class="copyright">Copyright 2015, Jane Smith</p>
+      <p class="copyright">Copyright 2015, Jonas Åberg</p>
     </footer>
+
+    <script src="main.js"></script>
   </body>
   </html>
