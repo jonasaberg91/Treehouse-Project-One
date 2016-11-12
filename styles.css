@@ -276,11 +276,6 @@ a.social:hover {
   cursor: pointer;
 }
 
-/*
-.contact-trigger:after {
-  content: " +";
-}*/
-
 .contact-tab {
   display: none;
   position: fixed;
@@ -314,11 +309,3 @@ a.social:hover {
 .contact-tab a.social:hover {
   opacity: 0.4;
 }
-/*
-.active:after {
-  content: " -";
-}
-
-
-
-*/
