@@ -81,7 +81,7 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
+  .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -233,6 +233,15 @@ a.social:hover {
 
 
 /* my css */
+.projects header {
+  background: inherit;
+  min-height: auto;
+}
+
+.projects header h1 {
+     margin-top: 80px;
+}
+
 #projects {
   overflow: auto;
 }
@@ -242,7 +251,7 @@ a.social:hover {
 }
 
 #projects figure {
-  margin: 16px 2.5% 0 2.5%;
+  margin: 32px 2.5% 0 2.5%;
   float: left;
   transition: all .5s;
 }
@@ -257,7 +266,7 @@ a.social:hover {
 
 @media screen and (min-width: 480px) {
   #projects figure {
-    width: 45%;
+    width: 28.333%;
   }
 }
 
